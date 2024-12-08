@@ -1,0 +1,20 @@
+main a {
+  
+  text-align: left;
+  font: normal 16px Work Sans;
+  text-decoration: none;
+  color: black;
+  
+  cursor: pointer;
+  transition: color 0.15s, scale 0.15s;
+}
+
+main a:hover {
+  text-decoration: underline;
+}
+
+main a:focus {
+  scale: 0.97;
+
+  color: #848484;
+}

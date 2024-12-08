@@ -1,0 +1,44 @@
+.navigation-grid {
+  display: flex;
+  margin: 0 48px 48px 48px;
+}
+
+.navigation-card {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 24px 24px 36px 24px;
+  margin: 12px;
+  border-radius: 12px;
+  background-color: #00000010;
+  box-shadow: 0 3px 3px #00000020;
+  text-decoration: none;
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+.navigation-card:hover {
+  box-shadow: 0 5px 5px #00000020;
+  scale: 1.02;
+}
+
+.navigation-card img {
+  height: 100px;
+  width: 100px;
+}
+
+.navigation-card h1 {
+  font: 600 26px Neuton;
+  color: black;
+  text-align: left;
+  padding: 0;
+  margin: 12px 0 8px 0;
+}
+
+.navigation-card p {
+  color: black;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
